@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ajouter un utilisateur</title>
+    <!-- Bootstrap CSS -->
+  </head>
+  <body>
+    <h1>Ajouter un utilisateur</h1>
+
+    <a href="create_table.php">Créer la table des utilisateurs</a>
+    <a href="lecture_data.php">Afficher les utilisateurs</a>
+
+    <form action="insert_data.php" method="post">
+      <label for="prenom">Prénom:</label><br />
+      <input type="text" id="prenom" name="prenom" /><br />
+      <label for="nom">Nom:</label><br />
+      <input type="text" id="nom" name="nom" /><br />
+      <label for="email">Email:</label><br />
+      <input type="text" id="email" name="email" /><br />
+      <input type="submit" value="Ajouter" />
+    </form>
+
+    <!-- Bootstrap JavaScript -->
+  </body>
+</html>
